@@ -1,0 +1,85 @@
+*{
+    margin:0px ;
+    padding: 0px;
+}
+body{
+    font-family: 'Roboto', 'sans-serif';
+    background: url(registerForm.css.jpg) no-repeat; 
+    height: 1300px;
+   
+    
+}
+.container{
+    font-family: 'Roboto', 'sans-serif';
+    background-color: rgb(224, 221, 221);
+    opacity: 0.8;
+    border-radius: 8px;
+    width: 500px;
+    position: absolute;
+    margin: 400px auto 100px 600px;
+    align-items: center;
+    height: 500px;
+    
+}
+h2{
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-bottom: 4px solid black;
+    color: black;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 45px;
+    text-align: center;
+}
+form{
+    position: sticky;
+    margin-left: 30px;
+    margin-top: 10px;
+    color: black;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 20px; 
+    align-items: center;
+}
+
+#Submit{
+    
+    outline: none;
+    color: black;
+    width: 450px;
+    height: 30px;
+    background: rgb(182, 182, 182);
+    border: none;
+    border-radius: 15px;
+}
+#Submit:hover{
+    background-color: rgb(190, 189, 189);
+    cursor: pointer;
+}
+.register{
+    outline: none;
+    color: black;
+    border: none;
+    border-radius: 10px ;
+    padding-left: 10px;
+    height: 25px;
+    background: white;
+    
+}
+.register:hover{
+    cursor: pointer;
+}
+#gender1:hover{
+    cursor: pointer;
+}
+#gender2:hover{
+    cursor: pointer;
+}
+#gender1{
+    margin-left: 10px;
+}
+#gender2{
+    margin-left: 10px;
+}
+
+
+
